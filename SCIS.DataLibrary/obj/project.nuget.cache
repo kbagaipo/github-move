@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iqaLXDZjZlLpdzLq30b4CyhQfOXSE9lfgTZm7PgksEX6L0yudN55xGQWHs4n+epyDfqf6X2jfUpToypjdjwycw==",
+  "dgSpecHash": "eubip/Fc1JqT1u7R4Vahr8WYSnRZqCk9Md/UaB3KutS1+RZYDRAfNX4V8lEYUUFkyq6s62wC/Utmbhhb/VR/3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MACHENIKE\\source\\repos\\SCISDevExpress\\SCIS.DataLibrary\\SCIS.DataLibrary.csproj",
+  "projectFilePath": "C:\\Users\\MACHENIKE\\Source\\Repos\\SCIS DevExpress\\SCIS.DataLibrary\\SCIS.DataLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MACHENIKE\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\MACHENIKE\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",

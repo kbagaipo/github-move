@@ -875,11 +875,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MACHENIKE\\Source\\Repos\\SCISDevExpress\\SCIS.DataLibrary\\SCIS.DataLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\MACHENIKE\\Source\\Repos\\SCIS DevExpress\\SCIS.DataLibrary\\SCIS.DataLibrary.csproj",
       "projectName": "SCIS.DataLibrary",
-      "projectPath": "C:\\Users\\MACHENIKE\\Source\\Repos\\SCISDevExpress\\SCIS.DataLibrary\\SCIS.DataLibrary.csproj",
+      "projectPath": "C:\\Users\\MACHENIKE\\Source\\Repos\\SCIS DevExpress\\SCIS.DataLibrary\\SCIS.DataLibrary.csproj",
       "packagesPath": "C:\\Users\\MACHENIKE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MACHENIKE\\Source\\Repos\\SCISDevExpress\\SCIS.DataLibrary\\obj\\",
+      "outputPath": "C:\\Users\\MACHENIKE\\Source\\Repos\\SCIS DevExpress\\SCIS.DataLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
