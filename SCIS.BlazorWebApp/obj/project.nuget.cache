@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I+DorsWqUjZdNWfx6kOdDLQZOU7VJHXPlWLiNDE2+L6x2YVy/MzHJDc6qF/aXtT7heav1ZMVyOr+aJ1KCVS73w==",
+  "dgSpecHash": "IHIYFkJTfM6WasmC6AGcprIyH/KN6nwDHZeGkmSDpqupzqV8xoYEc3XIkkyV+nU7j5TtbF9tUAttFjMbiZDuvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MACHENIKE\\Source\\Repos\\SCIS DevExpress\\SCIS.BlazorWebApp\\SCIS.BlazorWebApp.csproj",
+  "projectFilePath": "C:\\Users\\MACHENIKE\\source\\repos\\SCIS DevExpress\\SCIS.BlazorWebApp\\SCIS.BlazorWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages\\devexpress.blazor\\21.1.4\\devexpress.blazor.21.1.4.nupkg.sha512",
     "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages\\devexpress.data\\21.1.4\\devexpress.data.21.1.4.nupkg.sha512",

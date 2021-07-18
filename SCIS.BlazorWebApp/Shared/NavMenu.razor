@@ -1,12 +1,44 @@
 ﻿<div class="sidebar @StateCssClass">
-<DxTreeView AllowSelectNodes="true" CssClass="app-sidebar">
-    <Nodes>
-        <DxTreeViewNode NavigateUrl="./" Text="Overview"></DxTreeViewNode>
-        <DxTreeViewNode NavigateUrl="datagrid" Text="Data Grid"></DxTreeViewNode>
-    </Nodes>
-</DxTreeView>
+    <DxTreeView AllowSelectNodes="true" CssClass="app-sidebar" @ref="@treeView" NodeExpandCollapseAction="TreeViewNodeExpandCollapseAction.NodeClick">
+        <Nodes>
+            <DxTreeViewNode Text="Main">
+                <Nodes>
+                    <DxTreeViewNode NavigateUrl="dashboard" Text="Dashboard"></DxTreeViewNode>
+                    <DxTreeViewNode NavigateUrl="masterlist" Text="Master List"></DxTreeViewNode>
+                    <DxTreeViewNode NavigateUrl="reports" Text="Reports"></DxTreeViewNode>
+                </Nodes>
+            </DxTreeViewNode>
+
+            <DxTreeViewNode Text="Programs">
+                <Nodes>
+                    <DxTreeViewNode NavigateUrl="socialpension" Text="Social Pension"></DxTreeViewNode>
+                    <DxTreeViewNode NavigateUrl="centenarian" Text="Centenarian"></DxTreeViewNode>
+                    <DxTreeViewNode NavigateUrl="uct" Text="UCT"></DxTreeViewNode>
+                    <DxTreeViewNode NavigateUrl="philhealth" Text="Phil Health"></DxTreeViewNode>
+                </Nodes>
+            </DxTreeViewNode>
+
+            <DxTreeViewNode Text="Personal">
+                <Nodes>
+                    <DxTreeViewNode NavigateUrl="myaccount" Text="My Account"></DxTreeViewNode>
+                    <DxTreeViewNode NavigateUrl="settings" Text="Settings"></DxTreeViewNode>
+                </Nodes>
+            </DxTreeViewNode>
+        </Nodes>
+    </DxTreeView>
 </div>
 
 @code {
     [Parameter] public string StateCssClass { get; set; }
+
+    DxTreeView treeView;
+
+    protected override Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            treeView.ExpandAll();
+        }
+        return base.OnAfterRenderAsync(firstRender);
+    }
 }
